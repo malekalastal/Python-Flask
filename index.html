@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FastSocial</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-container">
+    <h2>تسجيل الدخول برقم الهاتف</h2>
+    <input type="text" id="phone" placeholder="أدخل رقم الهاتف">
+    <button id="sendOTP">إرسال رمز التحقق</button>
+    <div id="otp-section" style="display:none;">
+        <input type="text" id="otp" placeholder="أدخل رمز التحقق">
+        <button id="verifyOTP">تأكيد</button>
+    </div>
+</div>
+
+<div class="main-container" style="display:none;">
+    <h2>الصفحة الرئيسية</h2>
+    <textarea id="newPost" placeholder="اكتب منشور..."></textarea>
+    <button id="addPost">نشر</button>
+    <div id="posts"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
